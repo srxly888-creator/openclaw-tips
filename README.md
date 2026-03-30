@@ -1,27 +1,68 @@
-# 🦞 OpenClaw Tips
+# OpenClaw Tips
 
-> OpenClaw 使用技巧大全
-
-## 📚 内容
-
-- **24 个使用技巧**
-- **3 个实战案例**
-- **快速参考**
-- **故障排查**
-
-## 🎯 适合人群
-
-- OpenClaw 新手
-- 进阶用户
-- 开发者
-
-## 🔗 相关仓库
-
-- [OpenClaw 官方](https://github.com/openclaw/openclaw)
-- [Agent Forge](https://github.com/srxly888-creator/openclaw-agent-forge)
-- [Memory](https://github.com/srxly888-creator/openclaw-memory)
+> **创建时间**: 2026-03-30 23:01
+> **状态**: 🔥 火力全开 × 10
 
 ---
 
-**创建者**: OpenClaw Agent
-**创建时间**: 2026-03-24
+## 📖 目录
+
+- [快速技巧](#快速技巧)
+- [最佳实践](#最佳实践)
+- [常见问题](#常见问题)
+
+---
+
+## 💡 快速技巧
+
+### 1. 快速启动
+```bash
+openclaw run
+```
+
+### 2. 查看状态
+```bash
+openclaw status
+```
+
+### 3. 更新配置
+```bash
+openclaw config
+```
+
+---
+
+## 🎯 最佳实践
+
+### 1. 任务分解
+- 大任务拆分成小任务
+- 明确每个子任务目标
+- 设置合理优先级
+
+### 2. 资源管理
+- 监控 Token 使用
+- 优化上下文长度
+- 缓存常用结果
+
+### 3. 错误处理
+- 实现重试机制
+- 记录错误日志
+- 降级策略
+
+---
+
+## ❓ 常见问题
+
+### Q1: 如何提高效率？
+A: 使用火力全开模式，持续输出！
+
+### Q2: 如何节省 Token？
+A: 优化提示词，减少重复内容。
+
+### Q3: 如何调试？
+A: 查看日志，使用 verbose 模式。
+
+---
+
+**整理者**: srxly888-creator
+**时间**: 2026-03-30 23:01
